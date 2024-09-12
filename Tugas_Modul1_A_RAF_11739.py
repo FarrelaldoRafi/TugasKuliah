@@ -3,9 +3,7 @@ import pandas as pd
 import pickle
 import os
 
-model_directory = r'C:\Users\Admin\Music\Machine Learning\Tugas_A_11739'
-
-model_path = os.path.join(model_directory, 'RF_diabetes_model.pkl')
+model_path = 'RF_diabetes_model.pkl'
 
 if os.path.exists(model_path):
     try:
